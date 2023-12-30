@@ -18,6 +18,7 @@ import aws from './assets/aws.svg';
 import kubernete from './assets/kubernete.svg';
 import Redux from './assets/redux.svg';
 import Vuex from './assets/vuex.svg';
+import Material from './assets/material.svg';
 
 import arrowDown from './assets/arrowdown.svg';
 import './App.css';
@@ -42,7 +43,7 @@ export default function App() {
     {img: kubernete, description: 'Kubernete'},
     {img: Redux, description: 'Redux'},
     {img: Vuex , description: 'Vuex'},
-    {img: Vuex , description: 'Vuex'}
+    {img: Material , description: 'MaterialUI'}
 
   ]
 

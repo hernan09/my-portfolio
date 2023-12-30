@@ -171,6 +171,9 @@
     right: 12px !important;
     top: 21px !important;
   }
+  .card-container:last-child {
+    display: none;
+  }
 }
 
 
