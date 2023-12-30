@@ -19,6 +19,8 @@
 .content-main {
   background-image: url('./assets/teclado.jpg');
   background-size: cover;
+  overflow-y: hidden;
+  height: 100vh;
 }
 
 .disco {

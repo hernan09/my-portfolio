@@ -41,6 +41,7 @@ export default function App() {
     {img: github, description: 'Github'},
     {img: kubernete, description: 'Kubernete'},
     {img: Redux, description: 'Redux'},
+    {img: Vuex , description: 'Vuex'},
     {img: Vuex , description: 'Vuex'}
 
   ]
@@ -48,7 +49,6 @@ export default function App() {
   useEffect(()=>{
    
     setTimeout(()=>{
-      console.log(disco.current)
       disco.current.classList.add('imagen-rotada')
     },2000)
   },[])
