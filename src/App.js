@@ -69,6 +69,9 @@ export default function App() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            backgroundColor: 'black',
+            opacity: 0.9,
+            clipPath:'polygon(49% 6%, 49% 6%, 100% 0, 100% 80%, 50% 100%, 0% 80%, 0 0)'
           }}>
           <animated.div
             style={{
@@ -113,6 +116,9 @@ export default function App() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            backgroundColor: 'black',
+            opacity: 0.9,
+            clipPath:'polygon(49% 6%, 49% 6%, 100% 0, 100% 80%, 50% 100%, 0% 80%, 0 0)'
           }}>
           <animated.div
             style={{
@@ -157,6 +163,9 @@ export default function App() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            backgroundColor: 'black',
+            opacity: 0.9,
+            clipPath:'polygon(49% 6%, 49% 6%, 100% 0, 100% 80%, 50% 100%, 0% 80%, 0 0)'
           }}>
           <div
             style={{
