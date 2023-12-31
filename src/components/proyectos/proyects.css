@@ -1,0 +1,26 @@
+.content-proyects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    margin-top: 15px;
+  }
+
+  .list-item {
+    list-style-type: disc;
+    color: #7051b7;
+    font-weight: 700;
+    margin-top: 10px; 
+    z-index: 10;
+  }
+
+  .item-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .list-item a:active{
+    color: #7051b7;
+  }
+  .list-item a:visited{
+    color: #7051b7;
+  }

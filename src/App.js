@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react'
 import { animated } from '@react-spring/web'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Footer from './components/footer/footer.jsx';
+import Proyects from './components/proyectos/proyects.jsx';
 import yoImg from './assets/yoport.jpeg';
 import angular from './assets/angular.svg';
 import Css from './assets/css.svg';
@@ -28,7 +29,10 @@ export default function App() {
   const disco = useRef();
 
   const valuesCard = [
+    {img: react, description: 'React'},
+    {img: vue, description: 'Vue'},
     {img: angular, description: 'Angular'},
+    {img: Node, description: 'NodeJs'},
     {img: aws, description: 'AWS'},
     {img: Css, description: 'CSS'},
     {img: html, description: 'HTML'},
@@ -36,9 +40,6 @@ export default function App() {
     {img: Mongo, description: 'MongoDb'},
     {img: Mysql, description: 'Mysql'},
     {img: Sass, description: 'Sass'},
-    {img: vue, description: 'Vue'},
-    {img: react, description: 'React'},
-    {img: Node, description: 'NodeJs'},
     {img: github, description: 'Github'},
     {img: kubernete, description: 'Kubernete'},
     {img: Redux, description: 'Redux'},
@@ -46,6 +47,8 @@ export default function App() {
     {img: Material , description: 'MaterialUI'}
 
   ]
+
+  
 
   useEffect(()=>{
    
@@ -95,7 +98,8 @@ export default function App() {
             <h3 className='span-title'>Desarrollador Full Stack <strong className='title-strong'>Mean/Mern/Mevn</strong></h3>
             <div className='content-text'>
               ¡Hola! Soy Hernán, un apasionado desarrollador Full Stack con experiencia en la creación de aplicaciones web robustas 
-              y escalables utilizando los stacks MEAN, MERN y MEVN. Mi misión es transformar ideas innovadoras en soluciones tecnológicas 
+              y escalables utilizando los stacks MEAN, MERN y MEVN. Implemento 
+               metodologías ágiles para maximizar la eficiencia y la flexibilidad en los procesos. Mi misión es transformar ideas innovadoras en soluciones tecnológicas 
               que no solo cumplan con las expectativas, sino que también superen las necesidades del usuario. 
             </div>
             <Footer></Footer>
@@ -154,7 +158,7 @@ export default function App() {
             alignItems: 'center',
             justifyContent: 'center',
           }}>
-          <animated.div
+          <div
             style={{
               width: '90vw',
               margin:'auto',
@@ -173,11 +177,15 @@ export default function App() {
             }}
           > 
           <div className="section-3">
-          <h2 className='title-section-3'>Acerca de mi</h2>
+          <h2 className='title-section-3'>Mis Proyectos</h2>
+          <p className='text-proyectos'>          
+            ¡Explora mi Portafolio de Proyectos!
+          </p>
           <img className='arrow-down' src={arrowDown} />
-             
+          <Proyects/>
+          <span style={{color: 'rgb(130 131 131)',marginTop:'30px'}}>©Desarrollado por Hernan Sr</span>
           </div>
-          </animated.div>
+          </div>
         </ParallaxLayer>
         
       </Parallax>
