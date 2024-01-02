@@ -92,7 +92,7 @@ export default function App() {
           <img className='arrow-down' src={arrowDown} />
           
           <div className={`contenedor`}>
-            <img src={yoImg} className='disco' ref={disco}  style={{ width: '250px', height: '290px', borderRadius:'100%' }} />
+            <img src={yoImg} className='disco' ref={disco}/>
           </div>
             
             <h3 className='span-title'>Desarrollador Full Stack <strong className='title-strong'>Mean/Mern/Mevn</strong></h3>
@@ -160,6 +160,7 @@ export default function App() {
             justifyContent: 'center',
           }}>
           <div
+            className='div-section-pather'
             style={{
               width: '90vw',
               margin:'auto',

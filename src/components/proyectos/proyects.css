@@ -24,3 +24,6 @@
   .list-item a:visited{
     color: #7051b7;
   }
+  .list-item a:link{
+    color: #7051b7;
+  }

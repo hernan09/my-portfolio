@@ -26,6 +26,10 @@
 
 .disco {
   filter: grayscale(90%);
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
 }
 .span-title {
   font-size: 30px;
@@ -144,6 +148,7 @@
   color: #d0d1d1;
   font-family: 'Roboto', sans-serif;
 }
+
 .text-proyectos {
   color: #d0d1d1;
   font-family: 'Roboto', sans-serif;
@@ -157,6 +162,10 @@
   color: #7051b7;
   font-size: 1.3em; /* Tamaño de la primera letra */
   font-weight: bold;
+}
+
+@media (max-width:375px) {
+  
 }
 
 
@@ -195,8 +204,9 @@
     font-size: 15px !important;
   }
   .disco {
-    width: 185px !important;
-    height: 210px !important;
+    max-width: 185px !important;
+    width: 100% !important;
+    height: auto !important;
   }
   .arrow-down-2 {
     right: 12px !important;
